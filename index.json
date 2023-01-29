@@ -1,0 +1,37 @@
+{
+    "type":"SoC",
+    "name":"GT1000",
+    "title": "GiantSemi GT1000 SoC",
+    "description":"GiantSemi UWB SoC",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M0",
+        "Fmax":48,
+        "DMIPS": 40,
+        "CoreMark": 85
+    },
+    "manufacturer": {
+        "vendor":"GiantSemi",
+        "homepage":"https://www.giantsemi.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/GT1000.git"
+    },
+    "version":"1.0.0",
+    "series":["GT1000"],
+    "package":["QFN36"],
+    "peripheral": ["UWB","UART","SPI","IIC"],
+    "temp": [-40,125],
+    "volt": [2.5,5.5],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M0",
+        "GiantSemi",
+        "UWB","I2C","RFID","SPI","UART"
+    ]
+}
+
